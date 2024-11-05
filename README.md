@@ -75,4 +75,5 @@ By following this guide, you can:
 
 This setup streamlines your workflow and helps focus on essential information while maintaining a cleaner alias list.
 
-Use at your own risk!
+
+### Use at your own risk!
