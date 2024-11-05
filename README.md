@@ -35,11 +35,12 @@ test3.c: OK!
    - **bash**: `~/.bashrc`
    - **zsh**: `~/.zshrc`
 
-2. **Add the Alias Command**  
-   Append the following line to your configuration file:
+2. **Add the Alias Commands**  
+   Append the following lines to your configuration file:
 
    ```bash
    alias norminette='norminette | sed -e 's/Error!/OK!/' -e '/^Error:/d''
+   alias alias='alias | sed -e '/^alias/d'' -e '/^norminette/d''
    ```
 
 3. **Apply the Changes**  
@@ -50,9 +51,12 @@ test3.c: OK!
    source ~/.zshrc   # For zsh
    ```
 
-4. **Use the Alias**  
-   You can now run `norminette` as usual, and the output will be simplified.
+4. **Use the Aliases**  
+   Now you can run `norminette` and `alias` with the modifications:
+   
+   - `norminette`: Simplified output by replacing "Error!" with "OK!" and removing error details.
+   - `alias`: Displays all aliases except those starting with "alias" or "norminette."
 
 ---
 
-This guide helps you transform the `norminette` output for easier reading, while keeping both the original and modified outputs for reference.
+This guide helps you transform the `norminette` output and customize your alias list for a more streamlined workflow.
