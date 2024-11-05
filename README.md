@@ -74,3 +74,5 @@ By following this guide, you can:
 - Modify the `alias` command to filter out specific entries.
 
 This setup streamlines your workflow and helps focus on essential information while maintaining a cleaner alias list.
+
+<span style="color: gray;">Use at your own risk.</span>
