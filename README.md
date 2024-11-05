@@ -75,4 +75,4 @@ By following this guide, you can:
 
 This setup streamlines your workflow and helps focus on essential information while maintaining a cleaner alias list.
 
-<span style="color: gray;">Use at your own risk.</span>
+Use at your own risk!
